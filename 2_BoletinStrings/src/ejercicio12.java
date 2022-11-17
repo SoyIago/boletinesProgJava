@@ -9,17 +9,17 @@ public class ejercicio12 {
         boolean invalidStg = false;
         
         do {
+            System.out.print("Dame seis digitos diferentes: ");
             input = keyboard.nextLine();
             if (input.matches("\\d{6}")) {
                 String bannedNumbers = "";
                 
                 for (int i = 0; i < input.length(); i++) {
-                    System.out.println("DEBUG i");
                     boolean jHalt = false;
                     for (int j = 0; j < bannedNumbers.length(); j++) {
                         if (input.charAt(i) == bannedNumbers.charAt(j)) {
                             System.out.println("Cadena invalida.");
-                            //invalidStg = true; 
+                            invalidStg = true; 
                             jHalt = true;
                             break;
                         }
@@ -32,7 +32,7 @@ public class ejercicio12 {
                     invalidStg = true; 
                     System.out.println("Cadena invalida.");
             }
-        } while (!invalidStg);
+        } while (invalidStg);
         
         System.out.println("Cadena valida.");
     }
