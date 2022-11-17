@@ -1,0 +1,1 @@
+El programa avisara de que el saldo es superior a 1000 euros y a la vez mostrara que el saldo actual son 900 euros, tal y como esta implementado el codigo, `saldo = ingresar(saldo, 400f);` deberia estar tras el `else`.
