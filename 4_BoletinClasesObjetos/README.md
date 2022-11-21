@@ -303,6 +303,6 @@ public class Producto {
 ---
 > Iago Xoan Casal Neira -- Curso 2022/23
 > 
-> 15005397 -- IES Fernando Wirtz Suarez
-> CSIFC03 -- Desenvolvemento de aplicacións web
+> 15005397 -- IES Fernando Wirtz Suarez\
+> CSIFC03 -- Desenvolvemento de aplicacións web\
 > MP0485 -- Programación
