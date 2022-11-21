@@ -104,25 +104,26 @@ public class Producto {
 
 ### Ejercicios
 
-- Ejercico 1
+- Ejercicio 1
 
 	*A partir de la clase MovilPrepago que te proporcionará el profesor, haz un programa en el que se cree un teléfono con unas características determinadas y luego ejecute una serie de actividades como recargar 10 euros, llamar 30 segundos, navegar 10MB, etc. Viendo cómo se va modificando el saldo.*
 
 	Las propiedades de un móvil prepago son:
 	
-		- `int numeroMovil` (13 dígitos)
-		- `float costeEstablecLlamada` (euros, con dos decimales)
-		- `float costeMinutoLlamada` (euros, con dos decimales)
-		- `float costeConsumoMB` (euros, con dos decimales)
-		- `float saldo` (euros, con dos decimales)
+	- `int numeroMovil` (13 dígitos)
+	- `float costeEstablecLlamada` (euros, con dos decimales)
+	- `float costeMinutoLlamada` (euros, con dos decimales)
+	- `float costeConsumoMB` (euros, con dos decimales)
+	- `float saldo` (euros, con dos decimales)
 
 	Los métodos son:
-		- `void efectuarLlamada (int segundos)`: reduce el saldo. Si el saldo no es suficiente, se corta la llamada
-		- `void navegar(int MB)` análogo a efectuar una llamada
-		- `boolean recargar (int importe)`: aumenta el saldo, debe ser múltiplo de 5 euros, sino devuelve false
-		- `float consultarSaldo ()`
+	
+	- `void efectuarLlamada (int segundos)`: reduce el saldo. Si el saldo no es suficiente, se corta la llamada
+	- `void navegar(int MB)` análogo a efectuar una llamada
+	- `boolean recargar (int importe)`: aumenta el saldo, debe ser múltiplo de 5 euros, sino devuelve false
+	- `float consultarSaldo ()`
 		
-- Ejercico 2 
+- Ejercicio 2 
 
 	*A partir de la clase `MovilPrepago` del ejercicio anterior, crea un programa en el que el usuario dé de alta un teléfono con unas características determinadas y luego le permita mediante un menú hacer operaciones como consultar saldo, recarga, hacer llamada, navegar. Se proporciona un modelo (modeloMenu) a modo de esqueleto, con el menú y las funciones necesarias, en las que solo tienes rellenar los huecos.*
 
@@ -298,3 +299,10 @@ public class Producto {
 	> Ejemplo: combinación a adivinar: 9871 intento: 8471: 2 dígitos bien colocados, 1 dígito mal colocado.
 
 	El sistema validará que las combinaciones introducidas sean de 4 posiciones y sin repetidos. Haz una clase con la lógica del juego y un programa que la utilice pero solo como intermediario entre la clase y el jugador. Trata también de hacer el ejercicio lo suficientemente flexible para que a futuro se pudiese fácilmente cambiar a combinaciones de 5 dígitos (ó 6 ó 7 etc.) y también cambiar el número de intentos.
+
+---
+> Iago Xoan Casal Neira -- Curso 2022/23
+> 
+> 15005397 -- IES Fernando Wirtz Suarez
+> CSIFC03 -- Desenvolvemento de aplicacións web
+> MP0485 -- Programación
