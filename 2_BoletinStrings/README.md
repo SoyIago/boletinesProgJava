@@ -77,7 +77,7 @@ y muestre la cadena encriptada en (todo lo que no sean letras mayúsculas se dej
 
 	> `Hola, me llamo Pepe Pérez López y tengo 20 años` suponiendo que se introduce `Pepe Pérez López` como nombre completo y `20` como edad.
 
-	[Solución](./src/ejercicio9.java)
+	[Solución A](./src/ejercicio9a.java) -- [Solución B](./src/ejercicio9b.java)
 
 10. **Realizar un programa que solicite la entrada de 10 cadenas de caracteres y construya una cadena con el primer carácter de cada cadena. Finalmente mostrará dicha cadena por pantalla.**
 
@@ -119,7 +119,7 @@ y muestre la cadena encriptada en (todo lo que no sean letras mayúsculas se dej
 
 	[Solución](./src/ejercicio14.java)
 
-15. **Realizar un programa en el que el usuario introduzca un texto y sustituya sus posiciones impares por asteriscos, por ejemplo: “abcdefg” cambie las posiciones impares pasaría a: “a\*c\*e\*g”**
+15. **Realizar un programa en el que el usuario introduzca un texto y sustituya sus posiciones impares por asteriscos, por ejemplo: `abcdefg` cambie las posiciones impares pasaría a: `a*c*e*g`**
 
 	[Solución](./src/ejercicio15.java)
 
