@@ -33,7 +33,7 @@ public class Producto {
 
 2. **¿Cuántos constructores tiene?**
 
-	Tiene un constructor: `Producto()`.
+	Tiene un constructor: `Producto(String nombre, double precio, double IVA)`.
 
 3. **¿Cuántos métodos tiene?**
 
@@ -42,8 +42,8 @@ public class Producto {
 4. **¿Cómo harías para crear en el `main()` de un programa dos productos? Por ejemplo, `p1` que sea un ordenador, que tiene un impuesto del 21% y `p2` una barra de pan, que tiene el 4%.**
 
 	```java
-		Producto p1 = new Producto(¨Ordenador¨, 450d, 21d);
-		Producti p2 = new Producto(¨Barra de pan¨, 0.65d, 4d);
+	Producto p1 = new Producto(¨Ordenador¨, 450d, 21d);
+	Producti p2 = new Producto(¨Barra de pan¨, 0.65d, 4d);
 	```
 
 5. **¿Con qué descuento se crean?**
@@ -94,13 +94,15 @@ public class Producto {
 14. **Haz un `main` con el siguiente código:**
 
 	```java
-		Producto p3 = new Producto ("impresora",50d, 0.21d);
-		Producto p4 = p3;
-		p3.precio = 60;
-		System.out.println(p4.precio);
+	Producto p3 = new Producto ("impresora",50d, 0.21d);
+	Producto p4 = p3;
+	p3.precio = 60;
+	System.out.println(p4.precio);
 	```	
 	
 	- ¿Qué mostrará por pantalla? ¿Por qué?
+
+		Mostrará por pantalla que el precio es `60` ya que debido a como está planteado el código `p4` es una referencia a `p3`, y por tanto, al editar el `precio` de `p3` se cambia tambien el de `p4`.
 
 ### Ejercicios
 
@@ -133,7 +135,8 @@ public class Producto {
 	- `getPorcentajeComision()`: devuelve un float con el porcentaje de comisión a aplicar en retiradas.
 	- `getMinimoComision()`: devuelve un float con el importe mínimo de comisión a aplicar en retiradas.
 
-4. **Haz un programa como el anterior, pero creando dos cuentas en vez de una. Habrá una opción de menú nueva que será “Cambiar cuenta activa” para pasar de una cuenta a otra. Tendremos una variable de tipo `CuentaCorriente` que le puedes llamar `cuentaActiva` que unas veces apuntará a una cuenta y otras veces a la otra Recuerda que las variables de tipo Objeto, a diferencia de los tipos primitivos, son apuntadores a los objetos, si tenemos los objetos `cuenta1` y `cuenta2` creados con su constructor, podemos hacer luego una tercera variable `cuentaActiva` sin constructor y hacer `cuentaActiva=cuenta1` o bien `cuentaActiva=cuenta2` cuando nos interese.**
+4. **Haz un programa como el anterior, pero creando dos cuentas en vez de una. Habrá una opción de menú nueva que será `Cambiar cuenta activa` para pasar de una cuenta a otra. Tendremos una variable de tipo `CuentaCorriente` que le puedes llamar `cuentaActiva` que unas veces apuntará a una cuenta y otras veces a la otra.**
+	Recuerda que las variables de tipo Objeto, a diferencia de los tipos primitivos, son apuntadores a los objetos, si tenemos los objetos `cuenta1` y `cuenta2` creados con su constructor, podemos hacer luego una tercera variable `cuentaActiva` sin constructor y hacer `cuentaActiva=cuenta1` o bien `cuentaActiva=cuenta2` cuando nos interese.
 
 5. **A partir de la clase Ahorcado que te proporcionará el profesor, crea un programa que permita al usuario jugar al ahorcado. Desconocemos los atributos de la clase Ahorcado ya que son privados, pero sus métodos públicos son:**
 
