@@ -9,7 +9,7 @@ public class MasterMindExcepMain {
 	  Scanner teclado= new Scanner(System.in);
       boolean fin=false; 
 	  ResultadoMasterMind r =new ResultadoMasterMind();
-      MasterMindExcep juego = new MasterMindExcepMain();
+      MasterMindExcep juego = new MasterMindExcep();
       System.out.println ("["+juego.secreto+"]");
       
 	  while (!fin) {

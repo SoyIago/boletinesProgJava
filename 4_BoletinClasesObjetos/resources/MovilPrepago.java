@@ -8,7 +8,7 @@ public class MovilPrepago {
     final private float costeConsumoMB;
     private float saldo;
 
-    MovilPrepago(long nM, float cEL, float cML, float cMB, float s) {
+    public MovilPrepago(long nM, float cEL, float cML, float cMB, float s) {
         numeroMovil = nM;
         costeEstablecLlamada = cEL;
         costeMinutoLlamada = cML;
