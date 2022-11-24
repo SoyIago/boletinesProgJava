@@ -1,4 +1,4 @@
-package boletinFunciones;
+package B3_Funciones;
 
 public class ejercicio3 {
 

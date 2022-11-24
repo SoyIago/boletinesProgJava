@@ -1,4 +1,4 @@
-package boletinBucles;
+package B1_Bucles;
 import java.util.Scanner;
 
 public class ejercicio11 {

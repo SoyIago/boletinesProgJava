@@ -1,4 +1,4 @@
-package boletinBucles;
+package B1_Bucles;
 
 public class ejercicio21 {
 

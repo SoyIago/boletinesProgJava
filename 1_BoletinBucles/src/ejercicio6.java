@@ -1,3 +1,4 @@
+package B1_Bucles;
 public class ejercicio6 {
 
     public static void main(String[] args) {

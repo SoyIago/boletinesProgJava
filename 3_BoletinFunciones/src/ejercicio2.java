@@ -1,4 +1,4 @@
-package boletinFunciones;
+package B3_Funciones;
 import java.util.Scanner;
 
 public class ejercicio2 {

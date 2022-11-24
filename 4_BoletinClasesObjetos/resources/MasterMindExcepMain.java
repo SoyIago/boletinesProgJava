@@ -1,4 +1,4 @@
-package xxxxxxxx;
+package B4_ClasesObjetos_Recursos;
 
 import java.util.Scanner;
 

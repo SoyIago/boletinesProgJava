@@ -1,9 +1,9 @@
+package B1_Bucles;
+import java.util.Scanner;
 /*
     Este programa devuelve los divisores del numero introducido, que se encuentre
     entre 0 y 1000, ambos incluidos, tiene errores que se explica mas abajo.
 */
-import java.util.Scanner;
-
 public class ejercicio7 {
 
     public static void main(String[] args) {

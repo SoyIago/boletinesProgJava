@@ -1,4 +1,4 @@
-package botelinStrings;
+package B2_Strings;
 import java.util.Scanner;
 
 public class ejercicio3 {

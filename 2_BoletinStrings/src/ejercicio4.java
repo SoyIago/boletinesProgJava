@@ -1,4 +1,4 @@
-package botelinStrings;
+package B2_Strings;
         
 public class ejercicio4 {
 

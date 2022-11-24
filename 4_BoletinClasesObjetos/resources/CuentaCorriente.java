@@ -1,4 +1,4 @@
-package xxxxxxxxxxx;
+package B4_ClasesObjetos_Recursos;
 
 public class CuentaCorriente {
     public String IBAN;

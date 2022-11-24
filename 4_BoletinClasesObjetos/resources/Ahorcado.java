@@ -1,4 +1,4 @@
-package ProgT06;
+package B4_ClasesObjetos_Recursos;
 import java.util.Scanner;
 
 public class Ahorcado {
