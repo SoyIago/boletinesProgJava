@@ -1,10 +1,7 @@
 package B4_ClasesObjetos;
 import java.util.Scanner;
 import B4_ClasesObjetos_Recursos.Ahorcado;
-/**
- *
- * @author iago.xoan.casalneira
- */
+
 public class ejercicio5 {
 
     public static void main() {

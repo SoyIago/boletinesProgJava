@@ -3,16 +3,9 @@ import java.util.Scanner;
 import B4_ClasesObjetos_Recursos.Nim;
 import B4_ClasesObjetos_Recursos.Consola;
 
-/**
- *
- * @author iago.xoan.casalneira
- */
 public class ejercicio6 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+    public static void main() {
         Nim tableroNim = new Nim();
         byte jugadas = 1;
         
