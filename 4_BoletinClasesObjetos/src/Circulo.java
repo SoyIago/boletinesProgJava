@@ -1,27 +1,27 @@
 package B4_ClasesObjetos;
 
 public class Circulo {
-    private double radius;
+    private double radio;
     
     public Circulo() {}
     
-    public void setRadius(double newRadius) {
-        radius = newRadius;
+    public void setRadio(double newRadius) {
+        radio = newRadius;
     }
-    public double getRadius() {
-        return radius;
+    public double getRadio() {
+        return radio;
     }
     
     public double calcularCircunferencia() {
-        return 2 * radius * Math.PI;
+        return 2 * radio * Math.PI;
     }
     
     public double calcularSuperficie() {
-        return Math.PI * radius * radius;
+        return Math.PI * radio * radio;
     }
     
     public double calcularDiametro() {
-        return radius * 2;
+        return radio * 2;
     }
 }
 
