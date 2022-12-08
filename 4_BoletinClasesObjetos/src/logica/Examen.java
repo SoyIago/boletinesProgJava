@@ -7,6 +7,10 @@ public class Examen {
     private final StringBuilder respuestasAlumno = new StringBuilder(numeroPreguntas);
     private final String validInputs = "ABCDZ";
     
+    /**
+     * Crea un objeto ```Examen```.
+     * @param respuestas Un ```String``` con toda la lista de respuetas correctas.
+    **/
     public Examen(String respuestas) {
         numeroPreguntas = respuestas.length();
         respuestasCorrectas.append(respuestas);
@@ -15,6 +19,11 @@ public class Examen {
         }
     }
     
+    /**
+     * Registra las respuetas del alumno.
+     * @param respuestas Un ```String``` que contiene todas los valores de las respuetas.
+     * @return ```True``` si se han registrado las respuetas, ```False``` si faltan respuestas o hay caracteres invaldos.
+    **/
     public boolean registrarRespuestas(String respuestas) {
         if (respuestas.length() != respuestasCorrectas.capacity()) return false;
         
@@ -28,7 +37,10 @@ public class Examen {
         respuestasAlumno.replace(0, numeroPreguntas, respuestas);
         return true;
     }
-    
+    /**
+     * Evalua las respuetas registradas.
+     * @return Devuelve la nota del examen, siempre superior o igual a `0`.
+    **/
     public float evaluar() {
         float _puntuacionPregunta = 10.0f / numeroPreguntas; // En 20 preguntas, cada una valdria 0.5pts.
         float _restoFalloPregunta = 0.4f * _puntuacionPregunta; // En 20 preguntas, cada una descontaria 0.2pts.
