@@ -1,7 +1,7 @@
 package B4_ClasesObjetos;
 import java.util.Scanner;
-import B4_ClasesObjetos_Recursos.Nim;
-import B4_ClasesObjetos_Recursos.Consola;
+import B4_ClasesObjetos.recursos.Nim;
+import B4_ClasesObjetos.recursos.Consola;
 
 public class ejercicio6 {
 

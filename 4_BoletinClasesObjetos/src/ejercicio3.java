@@ -1,6 +1,6 @@
 package B4_ClasesObjetos;
 import java.util.Scanner;
-import B4_ClasesObjetos_Recursos.CuentaCorriente;
+import B4_ClasesObjetos.recursos.CuentaCorriente;
 
 public class ejercicio3 {
 

@@ -1,5 +1,5 @@
 package B4_ClasesObjetos;
-import B4_ClasesObjetos_Recursos.MovilPrepago;
+import B4_ClasesObjetos.recursos.MovilPrepago;
 
 public class ejercicio1 {
 

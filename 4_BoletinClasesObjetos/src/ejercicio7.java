@@ -1,4 +1,5 @@
 package B4_ClasesObjetos;
+import B4_ClasesObjetos.logica.Circulo;
 
 public class ejercicio7 {
 
