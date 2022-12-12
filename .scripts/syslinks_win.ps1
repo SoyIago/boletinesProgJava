@@ -14,6 +14,6 @@ for ($i = 0; $i -lt $currentSysLinks.length; $i++) {
 
 for ($i = 0; $i -lt $packages.length; $i++) {
 	$pkgName = 'B' + $($i + 1) + $packages[$i] -replace "[0-9]_Boletin", "_"
-	$sourceDir = "..\..\" + $packages[$i]
+	$sourceDir = "..\..\" + $packages[$i] + "\src"
 	cmd /c mklink /J $pkgName $sourceDir
 }
