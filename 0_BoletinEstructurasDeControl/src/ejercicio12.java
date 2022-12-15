@@ -23,7 +23,7 @@ public class ejercicio12 {
         int ndAnno = keyboard.nextInt();
         
         
-        if ((stAnno > ndAnno) | (stAnno < ndAnno && (stMes > ndMes | stMes < ndMes && stDia < ndDia))) 
+        if ((stAnno > ndAnno) || (stAnno < ndAnno && (stMes > ndMes || stMes < ndMes && stDia < ndDia))) 
             System.out.println("" + stDia + '/' + stMes + '/' + stAnno + " es mayor que " + ndDia + '/' + ndMes + '/' + ndAnno + '.');
         else
             System.out.println("" + stDia + '/' + stMes + '/' + stAnno + " es menor que " + ndDia + '/' + ndMes + '/' + ndAnno + '.');

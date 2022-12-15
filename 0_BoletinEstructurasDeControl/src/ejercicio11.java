@@ -26,7 +26,7 @@ public class ejercicio11 {
         
         switch (mes) {
             case 2 -> {
-                if (anno % 4 == 0 && (anno % 100 != 0 | anno % 400 == 0)) limiteMes = 28;
+                if (anno % 4 == 0 && (anno % 100 != 0 || anno % 400 == 0)) limiteMes = 28;
                 else limiteMes = 29;
             }
             case 1, 3, 5, 8, 10, 12 -> limiteMes = 31;
