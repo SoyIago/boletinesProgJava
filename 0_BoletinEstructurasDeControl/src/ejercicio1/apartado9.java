@@ -5,7 +5,7 @@ public class apartado9 {
 
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-        System.out.print("\nIX. Leer dos números enteros y diga si el segundo es divisor del primero.\n");
+        System.out.print("IX. Leer dos números enteros y diga si el segundo es divisor del primero.\n");
         System.out.print("Primer numero: ");
         int num1 = keyboard.nextInt();
         System.out.print("Segundo numero: ");

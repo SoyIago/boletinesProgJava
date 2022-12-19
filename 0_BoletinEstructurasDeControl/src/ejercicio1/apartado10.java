@@ -10,8 +10,8 @@ public class apartado10 {
         int num1 = keyboard.nextInt();
         System.out.print("Segundo numero: ");
         int num2 = keyboard.nextInt();
-        if (num2 != 0 && num1 >= num2 && num1 % num2 == 0) System.out.print(num1 + " es divisor de " + num2 + ".\n");
-        else if (num2 != 0 && num1 <= num2 && num2 % num1 == 0) System.out.print(num2 + " es divisor de " + num1 + ".\n");
+        if (num1 >= num2 & num2 != 0 && num1 % num2 == 0) System.out.print(num1 + " es divisor de " + num2 + ".\n");
+        else if (num1 < num2 & num1 != 0 && num2 % num1 == 0) System.out.print(num2 + " es divisor de " + num1 + ".\n");
         else System.out.print(num1 + " no es divisor de " + num2 + ".\n");
     }
     

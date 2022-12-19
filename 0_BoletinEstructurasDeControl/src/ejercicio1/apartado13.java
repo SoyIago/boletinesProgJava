@@ -12,7 +12,7 @@ public class apartado13 {
         int num2 = keyboard.nextInt();
         System.out.print("Tercer numero: ");
         int num3 = keyboard.nextInt();
-        if ((num1 > 0 || num2 > 0 || num3 > 0) && !(num1 > 0 && num2 > 0 && num3 > 0)) System.out.print("Hay algun numero mayor que 0, pero no todos..\n");
+        if ((num1 > 0 | num2 > 0 | num3 > 0) & !(num1 > 0 & num2 > 0 & num3 > 0)) System.out.print("Hay algun numero mayor que 0, pero no todos..\n");
     }
     
 }

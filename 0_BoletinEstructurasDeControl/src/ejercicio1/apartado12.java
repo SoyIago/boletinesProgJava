@@ -5,14 +5,14 @@ public class apartado12 {
 
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-        System.out.print("\nXII. Leer tres números enteros y diga hay alguno mayor que cero.\n");
+        System.out.print("XII. Leer tres números enteros y diga hay alguno mayor que cero.\n");
         System.out.print("Primer numero: ");
         int num1 = keyboard.nextInt();
         System.out.print("Segundo numero: ");
         int num2 = keyboard.nextInt();
         System.out.print("Tercer numero: ");
         int num3 = keyboard.nextInt();
-        if (num1 > 0 || num2 > 0 || num3 > 0) System.out.print("Hay algun numero mayor que 0.\n");
+        if (num1 > 0 | num2 > 0 | num3 > 0) System.out.print("Hay algun numero mayor que 0.\n");
     }
     
 }

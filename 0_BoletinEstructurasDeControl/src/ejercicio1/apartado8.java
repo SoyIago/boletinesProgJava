@@ -5,7 +5,7 @@ public class apartado8 {
 
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-        System.out.print("\nVIII. Leer dos números y decir si el primero es mayor que el segundo, si es menor o si los dos números son iguales.\n");
+        System.out.print("VIII. Leer dos números y decir si el primero es mayor que el segundo, si es menor o si los dos números son iguales.\n");
         System.out.print("Primer numero: ");
         int num1 = keyboard.nextInt();
         System.out.print("Segundo numero: ");
