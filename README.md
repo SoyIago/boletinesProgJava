@@ -1,5 +1,7 @@
 # Boletines de Programación de Java
 
+##### Primera Evaluación
+
 0. [**Estructuras de Control**](./0_BoletinEstructurasDeControl/README.md)
 1. [**Bucles**](./1_BoletinBucles/README.md)
 2. [**Strings**](./2_BoletinStrings/README.md)
@@ -13,4 +15,12 @@
 
 - **Este repositorio contiene enlaces simbólicos, que por defecto, solo funcionan bajo un sistema basado en Linux** (y también, probablemente, MacOS).
 
-	- Para reconstruir estos enlaces en un formato compatible con Windows, se propociona en la carpeta `./.scripts` el script `symlinks_win.ps1`, que ha de ejecutarse con *Windows PowerShell* y hará las tareas necesarias automáticamente (*no se requieren permisos de Administrador*).
+	- Para reconstruir estos enlaces en un formato compatible con Windows, se proporciona en la carpeta `./.scripts` el script `symlinks_win.ps1`, que ha de ejecutarse con *Windows PowerShell* y hará las tareas necesarias automáticamente (*no se requieren permisos de Administrador*).
+
+
+---
+> Iago Xoan Casal Neira -- Curso 2022/23
+> 
+> 15005397 -- IES Fernando Wirtz Suarez\
+> CSIFC03 -- Desenvolvemento de aplicacións web\
+> MP0485 -- Programación

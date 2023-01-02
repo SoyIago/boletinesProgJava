@@ -15,8 +15,7 @@
 
 	[Solución](./src/ejercicio4.java)
 
-5. **Sumar una cantidad de números que se van introduciendo, siempre que sean positivos hasta
-que se teclee el `-1`.**
+5. **Sumar una cantidad de números que se van introduciendo, siempre que sean positivos hasta que se teclee el `-1`.**
 
 	[Solución](./src/ejercicio5.java)
 
