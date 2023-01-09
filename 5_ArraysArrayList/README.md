@@ -18,35 +18,35 @@
 	
 2. **Indica los errores de cada línea:**
 
-	- ```java
+	```java
 	int [] arr = new arr [] {1,2,3,4,5};
 	```
 
-		El tipo `arr` no existe, hay que porporcionar el tipo de datos que va a contener el bucle, en este caso sería `int`.
+	El tipo `arr` no existe, hay que porporcionar el tipo de datos que va a contener el bucle, en este caso sería `int`.
 	
-	- ```java
+	```java
 	int [5] arr = new int [] {1,2,3,4,5};
 	```
 
-		La cantidad de indices no se declara ahí y, de todos modos, no tendría, sentido hacerlo en este caso ni en el lugar correcto, ya que no se puede declarar contenido del array y dimensión del mismo a la vez.
+	La cantidad de indices no se declara ahí y, de todos modos, no tendría, sentido hacerlo en este caso ni en el lugar correcto, ya que no se puede declarar contenido del array y dimensión del mismo a la vez.
 	
-	- ```java
+	```java
 	int [] arr = new int [5] {1,2,3,4,5};
 	```
 
-		No se puede declarar la cantidad de indices del array porque ya se están declarando los indices.
+	No se puede declarar la cantidad de indices del array porque ya se están declarando los indices.
 		
-	- ```java
+	```java
 	int [] arr = new int [] {1,2,3,4,5};
 	```
 
-		Es correcto.
+	Es correcto.
 		
-	- ```java
+	```java
 	int [] arr = new int [5];
 	```
 
-		Es correcto.
+	Es correcto.
 
 3. **Corrige los errores de este código e indica la salida del mismo:**
 
@@ -99,6 +99,7 @@
 			y[z] = x[z];
 			y[z + 1] = x[z] + 10;
 		}
+		return y;
 	}
 	```
 	
