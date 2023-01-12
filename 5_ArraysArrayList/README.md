@@ -14,7 +14,7 @@
 	System.out.printf("%d-%d\n",p,i);
 	```
 
-	El código es correcto sintacticamente, pero, supongo que la linea 4 tendria más sentido si fuese `if (a[x]%2==0) p+=a[x];` ya que en el original se está preguntando si el indice actual del bucle es multiplo de `2` en lugar de si el número contenido en el indice actual del bucle es multiplo de `2`.
+	El código es correcto sintéticamente, pero, supongo que la linea 4 tendría más sentido si fuese `if (a[x]%2==0) p+=a[x];` ya que en el original se está preguntando si el indice actual del bucle es múltiplo de `2` en lugar de si el número contenido en el indice actual del bucle es múltiplo de `2`.
 	
 2. **Indica los errores de cada línea:**
 
@@ -56,7 +56,7 @@
 	System.out.println(Arrays.toString(arr));
 	```
 
-	Correción:
+	Corrección:
 
 	```java
 	int[] arr = new int[] {1,2,3,4,5};
@@ -85,7 +85,7 @@
 	}
 	```
 
-	Correción:
+	Corrección:
 
 	```java
 	public static void main(String[] args) {
@@ -95,7 +95,7 @@
 
 	static int[] fun(int[] x) {
 		int[] y = new int[x.lenght * 2];
-		for (int z = 0; z < y.lenght; z+=2) {
+		for (int z = 0; z < x.lenght; z++) {
 			y[z] = x[z];
 			y[z + 1] = x[z] + 10;
 		}
@@ -116,11 +116,19 @@
 	}
 	```
 
-	¿Qué mostrarían las siguientes ejecuciones?
+- ¿Qué mostrarían las siguientes ejecuciones?
 	
-		- `java ej abc abc abc`
-		- `java ej abc abc`
-		- `java ej ABc abc`
+	- `java ej abc abc abc`
+
+		Devuelve `false` porque el número de elementos en `args` es distinto de `2`.
+
+	- `java ej abc abc`
+
+		Devuelve `false` porque el primer elemento es equivalente al segundo elemento.
+
+	- `java ej ABc abc`
+
+		Devuelve `true` porque `args` contiene `2` elementos y ambos son diferentes el uno del otro.
 
 6. **Indica qué hace este programa.**
 
@@ -138,6 +146,12 @@
 	}
 	System.out.println (result);
 	```
+
+	- El programa devuelve `false` si el número de elementos en `args` es distinto de `2` o si ambos elementos son iguales.
+
+	- Si el número de elementos es `2` y estos son diferentes:
+		- Recorre todos los caracteres del primer elemento de `args`, suma `1` a `low` si encuentra alguna letra minúscula o `1` a `up` si encuentra alguna letra mayúscula.
+		- Sí se encontró alguna letra -- `up` mayor o igual a `1` y/o `low` mayor o igual a `1` -- se devuelve `false`, de lo contrario la ejecución termina con un `true`.
 	
 ### Ejercicios
 
@@ -224,6 +238,7 @@
 
 13. **Realizar un programa que tenga un Array con una agenda de teléfonos simple con unos valores cualquiera. Por ejemplo:**
 
+	| Nombre   | Número       |
 	| -------- | -------------|
 	| Marta    | 666111222    |
 	| Miguel   | 981981981    |
@@ -241,7 +256,7 @@
 
 # Bloque B: ArrayList
 
-###Cuestiones
+### Cuestiones
 
 1. **Muestra el contenido del ArrayList después de ejecutar este código:**
 
