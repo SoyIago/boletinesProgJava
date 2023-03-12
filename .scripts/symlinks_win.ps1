@@ -9,7 +9,7 @@ $packages = Get-ChildItem -Name -Directory | Select-String -pattern '[0-9]{1,2}_
 cd .netbeans\src
 $currentSysLinks = Get-ChildItem -Name | Select-String -pattern "B[0-9]{1,2}_*"
 for ($i = 0; $i -lt $currentSysLinks.length; $i++) {
-	Remove-Item $currentSysLinks[$i] -Force
+	Remove-Item $currentSysLinks[$i] -Recurse -Confirm:$false -Force 
 }
 
 for ($i = 0; $i -lt $packages.length; $i++) {
