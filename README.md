@@ -8,6 +8,13 @@
 3. [**Funciones**](./3_BoletinFunciones/README.md)
 4. [**Clases y Objetos**](./4_BoletinClasesObjetos/README.md)
 
+##### Segunda Evaluación
+
+5. [**Arrays y ArrayList**](./5_BoletinArraysArrayList/README.md)
+6. [**Clases y Herencia**](./6_BoletinClasesHerencia/README.md)
+7. [**Polimorfismo**](./7_BoletinPolimorfismo/README.md)
+8. [**Clases Abstractas e Interfaces**](./8_BoletinClasesAbstractasInterfaces/README.md)
+
 ## Notas de uso
 - La carpeta `./.netbeans` de este repositorio contiene un proyecto de NetBeans diseñado para ser usado contra este repositorio.
 
